@@ -9,7 +9,7 @@ end
 def words_five_letters_long(text)
   count = text
   text.match(/\b\w[a-z]{5}\b/)
-  text
+  count
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
